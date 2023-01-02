@@ -21,6 +21,6 @@ Route::get('/', [ComicController::class, 'index'])->name('index');
 
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+     return view('welcome');
+ });
